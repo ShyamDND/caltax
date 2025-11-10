@@ -78,8 +78,8 @@ export default function AppSidebar({}: Props) {
       >
         <div className="flex flex-col h-full">
           {/* Company name */}
-          <div className="flex items-center  h-16 px-4 border-b dark:border-zinc-800 border-zinc-200">
-            <h1 className="bg-linear-to-br dark:from-blue-300 relative dark:via-cyan-200  dark:to-blue-400 px-6 py-2 rounded-lg font-bold  cursor-pointer hover:opacity-90 text-2xl text-transparent bg-clip-text from-lime-400 via-lime-500 to-lime-500 ">
+          <div className="flex items-center   px-4 ">
+            <h1 className="bg-linear-to-br dark:from-blue-300 relative dark:via-cyan-200  dark:to-blue-400 px-6 py-2 rounded-lg font-bold  cursor-pointer hover:opacity-90 text-2xl text-transparent bg-clip-text from-lime-500 via-lime-400 to-lime-500 ">
               CALTAX
             </h1>
           </div>

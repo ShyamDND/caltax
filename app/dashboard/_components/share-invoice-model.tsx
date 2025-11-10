@@ -7,7 +7,6 @@ import {
 import { copyToClipboard, generateEmailTemplate } from '@/lib/utils'
 import { Invoice } from '@/types'
 import { ShareIcon } from 'lucide-react'
-import React from 'react'
 
 type Props = {
   selectedInvoice: Invoice

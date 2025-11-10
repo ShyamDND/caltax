@@ -8,16 +8,20 @@ interface TInoice {
   clientName: string
   clientEmail?: string
   clientPhone?: string
-  status: 'paid' | 'pending' | 'unpaid' | 'overdue'
+  status: 'paid' | 'pending' | 'overdue'
   amount: number
   issueDate: Date
   dueDate: Date
   paidDate: Date
   taxRate?: number
+  clientId: string // relationWithClients
 }
 
 interface TClientProfile {
   id: string
+  name: string
+  email: string
+  phone: string
   address: {
     street: string
     city: string
